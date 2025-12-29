@@ -4,6 +4,3 @@ coverage/
 tests/
 scripts/
 config.env 
-.eslintrc.js
-.server.js
-.config.js
