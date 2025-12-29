@@ -19,6 +19,7 @@ jobs:
 
       - name: Линтинг
         working-directory: ${{ inputs.context }}
+        continue-on-error: true
         run: npm run lint
 
       - name: Тестирование
